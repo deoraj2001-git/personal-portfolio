@@ -1,20 +1,20 @@
-import Login from "./components/login/login";
+import Login from "./components/login/login.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import About from "./components/about/about";
-import Contact from "./components/contact/contact";
-import Header from "./components/header";
-import Home from "./components/Home/home";
-import Projects from "./components/projects/projects";
-import Footer from "./footer/footer";
+import About from "./components/about/about.jsx";
+import Contact from "./components/contact/contact.jsx";
+import Header from "./components/header.jsx";
+import Home from "./components/Home/home.jsx";
+import Projects from "./components/projects/projects.jsx";
+import Footer from "./footer/footer.jsx";
 import { useDispatch, useSelector } from "react-redux";
 
 import { useEffect } from "react";
-import { getUser, loadUser } from "./actions/user";
-import AdminPanel from "./components/Admin/AdminPanel";
-import Timeline from "./components/Admin/Timeline";
-import Youtube from "./components/Admin/Youtube";
-import Project from "./components/Admin/Project";
+import { getUser, loadUser } from "./actions/user.js";
+import AdminPanel from "./components/Admin/AdminPanel.jsx";
+import Timeline from "./components/Admin/Timeline.jsx";
+import Youtube from "./components/Admin/Youtube.jsx";
+import Project from "./components/Admin/Project.jsx";
 import Loader from "./components/loader/loader.jsx";
 
 function App() {
