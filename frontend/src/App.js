@@ -8,6 +8,7 @@ import Home from "./components/Home/home.jsx";
 import Projects from "./components/projects/projects.jsx";
 import Footer from "./footer/footer.jsx";
 import { useDispatch, useSelector } from "react-redux";
+import "react-toastify/dist/ReactToastify.css";
 
 import { useEffect } from "react";
 import { getUser, loadUser } from "./actions/user.js";
